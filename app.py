@@ -53,7 +53,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     model = MBartForConditionalGeneration.from_pretrained("model\indojawa2")
-    tokenizer = MBartTokenizer.from_pretrained("model\indojawa2")
+    tokenizer = MBartTokenizer.from_pretrained("model/indojawa2")
     return model, tokenizer
 
 def translate_text(text, model, tokenizer):
