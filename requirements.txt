@@ -47,8 +47,8 @@ tenacity==9.0.0
 tokenizers==0.21.0
 toml==0.10.2
 torch
-torchaudio==2.5.1+cpu
-torchvision==0.20.1+cpu
+torchaudio
+torchvision
 tornado==6.4.2
 tqdm==4.67.1
 transformers==4.48.0
